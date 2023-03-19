@@ -1,0 +1,56 @@
+body {
+    background-color: white;
+}
+
+#testForm {
+    float: left;
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+    border:1px solid black;
+}
+
+
+#testimage img {
+        width:50%;
+        height: 73%;
+        position: -webkit-sticky;
+        position:sticky;
+        bottom:10;
+        border:1px solid black;
+    }
+    }
+
+
+.inputTable td {
+    padding: 10px;
+}
+
+.inputTable th {
+    text-align: left;
+}
+
+.inputTable input[type=text],
+input[type=number],
+input[type=email] {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-color: rgba(128, 128, 128, 0.5);
+    width: 300px;
+}
+
+.inputTable label {
+    text-align: left;
+}
+
+input[type=button] {
+    padding: 10px 10px;
+    right: 50%;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: blueviolet;
+    right:50%;
+}
